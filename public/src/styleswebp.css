@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* Estilos comunes para todas las páginas */
+body {
+    font-family: inherit;
+    margin: 100;
+    padding: 50;
+    border-style: outset;
+    border-bottom-width: thick;
+    border-bottom-color: rgba(o,215,235,125);
+    max-width: 1000px; /* Ancho máximo del contenedor */
+  	margin: 20px auto; /* Centrar el contenedor en la página */
+ 	padding: 20px; /* Espacio alrededor del contenido del contenedor */
+  	border-radius: 50px; /* Redondear los bordes del contenedor */
+  	border-color: navy;
+  	color: rgb(0,215,235);
+  	
+}
+
+#ok {
+	background: radial-gradient(ellipse at center, rgba(0, 100, 250, 3), rgba(0, 215, 235, -10));
+	
+
+}
+
+	
+
+h1 {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-style: oblique;
+    font-family: sans-serif;
+    border-radius: 30px;
+}
+h2 {
+	background-color:black;
+    font-style: italic;
+    font-family: monospace;
+    color: rgb(0,215,235);
+    text-align: center;
+    padding: 10px;
+    max-width: 900px;
+    margin: 20px auto;
+	
+}
+
+nav ul {
+    list-style-type: square;
+    padding: 0;
+    background-color:rgb(0,215,235);
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: large;
+    max-width: 800px;
+    margin: 20px auto;
+  
+    border-color: blue;
+}
+
+nav li {
+    display: marker;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: blink;
+    color:captiontext;
+}
+
+main {
+    margin: auto;
+    text-align: justify;
+    font-size: larger;
+    color: rgb(0,5,250);
+    max-width: 900px;
+}
+
+img {
+    width: 800px; 
+    height: 600px; 
+    position: relative;
+    top: 50%;
+    left: 5%;
+}
+    
+   
+
+
+footer {
+    background-color: black;
+    color: rgb(0,215,235);
+    text-align: right;
+    padding: 10px;
+    font-style: oblique;
+    font: caption;
+    border-radius: 20px;
+}
